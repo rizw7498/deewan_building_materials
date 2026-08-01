@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+@import "tailwindcss";
+
+
+
+body {
+  font-family: 'Gulzar' !important;
+  background-color: #121212;
+  color: #f3f4f6;
+  direction: rtl; /* RTL Support */
+  overflow-x: hidden;
+}
+
+/* سموتھ اسکرولنگ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* نیسٹعلیق اسٹائل کے لیے کلاس */
+.nastaliq {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  line-height: 2.2;
+}
